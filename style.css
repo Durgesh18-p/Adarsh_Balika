@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #7c3ae7;
+    --grey-color:#374151;
 }
 
 body {
@@ -35,9 +36,26 @@ body {
 .link {
     text-decoration: none;
     color:white;
+    cursor: pointer; 
 }
 
-a:hover {
-    cursor: pointer;   
+.container-fluid {
+    text-align: center;
 }
 
+.hero-img {
+    max-width: 80%;
+    width: 550px;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    color: var(--grey-color);
+    font-weight: bolder;
+}
+
+span {
+    color: purple;
+    /* font-weight: bolder; */
+}
