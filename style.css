@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=Montserrat&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+:root {
+    --primary-color: #7c3ae7;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.naviagtion {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+.list-decoration {
+    list-style-type: none;
+    display:flex;
+    justify-content: right;
+    /* gap: 10px; */
+    /* gap: 10px 20px;  */
+    /* row-gap: 10px; */
+    column-gap: 20px;
+}
+
+.container {
+    font-weight: bold;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    cursor: pointer;   
+}
+
