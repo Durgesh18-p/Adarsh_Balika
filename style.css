@@ -41,6 +41,7 @@ body {
 
 .container-fluid {
     text-align: center;
+    margin: 1rem 0rem;
 }
 
 .hero-img {
@@ -69,4 +70,33 @@ span {
 
 .skill-container {
     padding: 1rem 0rem;
+}
+
+.section {
+    text-align: center;
+    margin: 0rem 10rem;
+    border-radius: 1rem;
+}
+
+.link-project {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.blogs {
+    text-align: center;
+    background-color: var(--back-color);
+    margin: 1rem 10rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+ .link-blog {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    /* border: 1px soild black; */
+    border-radius: 1rem;
 }
