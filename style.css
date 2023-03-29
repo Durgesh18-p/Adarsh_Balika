@@ -2,7 +2,8 @@
 
 :root {
     --primary-color: #7c3ae7;
-    --grey-color:#374151;
+    --grey-color:#1f2937;
+    --back-color:#d4d4d8;
 }
 
 body {
@@ -12,8 +13,7 @@ body {
 .naviagtion {
     background-color: var(--primary-color);
     padding: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin: 0rem 10rem;
     border-bottom-left-radius: 1rem;
     
 }
@@ -50,7 +50,7 @@ body {
     display: block;
 }
 
-h2 {
+h1 {
     color: var(--grey-color);
     font-weight: bolder;
 }
@@ -58,4 +58,15 @@ h2 {
 span {
     color: purple;
     /* font-weight: bolder; */
+}
+
+.skills {
+    text-align: center;
+    margin: 0rem 10rem;
+    background-color: var(--back-color);
+    border-radius: 1rem;
+}
+
+.skill-container {
+    padding: 1rem 0rem;
 }
