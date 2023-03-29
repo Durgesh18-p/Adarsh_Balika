@@ -88,15 +88,27 @@ span {
 .blogs {
     text-align: center;
     background-color: var(--back-color);
-    margin: 1rem 10rem;
-    padding: 0.3rem;
+    margin: 2rem 10rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.3rem;
     border-radius: 1rem;
 }
 
- .link-blog {
+.footer {
+    border-radius: 1rem;
+    margin: 2rem 10rem;
+    padding: 1rem 1rem;
+}
+
+.link-footer {
+    list-style: none;
+}
+
+section .link-blog {
     text-decoration: none;
     color: var(--primary-color);
     cursor: pointer;
-    /* border: 1px soild black; */
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
     border-radius: 1rem;
 }
